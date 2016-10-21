@@ -13,3 +13,4 @@ RUN	apk add --update ca-certificates openssl tar && \
 
 EXPOSE 2379 2380
 
+CMD ["/bin/etcd"]
